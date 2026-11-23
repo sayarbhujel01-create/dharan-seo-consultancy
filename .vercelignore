@@ -1,0 +1,8 @@
+# Exclude local tooling and internal documentation from public Vercel deployments
+preview.ps1
+README.md
+SITE-CONFIG-CHECKLIST.md
+.git
+.gitignore
+.DS_Store
+Thumbs.db

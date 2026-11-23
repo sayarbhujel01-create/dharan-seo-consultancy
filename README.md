@@ -1,8 +1,23 @@
 # Dharan SEO Consultancy Website (Nepal)
 
-A high-performance, semantically architected **29-page static SEO consultancy website** tailored for an SEO expert firm based in **Dharan, Sunsari, Koshi Province, Nepal**.
+A high-performance, semantically architected **29-page static SEO consultancy website** tailored for an SEO expert firm based in **Dharan, Sunsari, Koshi Province, Nepal** — pre-configured for zero-build **Vercel** deployment.
 
 Built with pure semantic HTML5, lightweight CSS3, deferred vanilla JavaScript, interconnected Schema.org JSON-LD (`@graph`), and zero external build dependencies—engineered for top Core Web Vitals, Google Organic Search, Local SEO, Topical Authority, and AI Answer Engines.
+
+## Deploy on Vercel (1-Click / Zero Build)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsayarbhujel01-create%2Fdharan-seo-consultancy)
+
+Or import directly from [vercel.com/new](https://vercel.com/new) using these settings:
+- **Framework Preset:** `Other`
+- **Root Directory:** `.`
+- **Build Command:** *(leave empty)*
+- **Output Directory:** `.`
+
+### Included Vercel Optimizations
+- [`vercel.json`](./vercel.json): Enforces `cleanUrls: true` and `trailingSlash: true` (matching all canonical URLs and `sitemap.xml` with clean 308 redirects), immutable 1-year caching for `/assets/*`, fresh cache revalidation for `sitemap.xml` / `robots.txt` / `llms.txt`, and security headers (`HSTS`, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`).
+- [`.vercelignore`](./.vercelignore): Keeps local helper scripts (`preview.ps1`) and internal markdown checklists out of public production deployments.
+- [`404.html`](./404.html): Branded, `noindex, follow` custom 404 error page served automatically by Vercel with HTTP `404` status.
 
 ## Information Architecture (Three-Layer Topical Map)
 
@@ -41,4 +56,4 @@ Then visit `http://localhost:8080/`.
 
 ## Pre-Launch Configuration
 
-Before publishing live, review [`SITE-CONFIG-CHECKLIST.md`](./SITE-CONFIG-CHECKLIST.md) to replace all clearly labeled placeholders (`domain`, `brand name`, `Dharan street address`, `phone`, `WhatsApp`, `email`, and `verified case study slots`).
+Before publishing live on your custom domain, review [`SITE-CONFIG-CHECKLIST.md`](./SITE-CONFIG-CHECKLIST.md) to replace all clearly labeled placeholders (`domain`, `brand name`, `Dharan street address`, `phone`, `WhatsApp`, `email`, and `verified case study slots`).
