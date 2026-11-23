@@ -1,0 +1,16 @@
+{
+  "name": "[Brand Name] — SEO Expert in Dharan, Nepal",
+  "short_name": "Dharan SEO",
+  "description": "Specialized SEO consultancy in Dharan, Sunsari, Nepal offering Local SEO, Technical SEO, On-Page SEO, and E-commerce SEO.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#0c1720",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

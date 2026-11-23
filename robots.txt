@@ -1,0 +1,23 @@
+# Robots.txt — Dharan SEO Consultancy
+# Replace https://yourdomain.com.np with your verified production domain before launch.
+
+User-agent: *
+Allow: /
+
+# Explicitly permit major search and AI answer engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://yourdomain.com.np/sitemap.xml
